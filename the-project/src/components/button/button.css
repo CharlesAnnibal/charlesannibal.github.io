@@ -1,0 +1,10 @@
+.btn-action{
+    background-color: orange;
+    border-radius: 8px;
+    padding:10px 20px;
+    margin: 0 auto;
+    width: auto;
+    border: none;
+    color:white;
+    text-transform:uppercase;
+}

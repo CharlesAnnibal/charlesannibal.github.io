@@ -1,0 +1,16 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-option{
+    margin: 3%;
+    padding: 2%;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.menu-option:hover{
+    color:white;
+    background-color: orange;
+}
