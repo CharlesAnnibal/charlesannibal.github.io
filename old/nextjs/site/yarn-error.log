@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add *
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;D:\xampp\php;C:\composer;D:\Program Files\flutter\bin\flutter.bat;C:\Program Files\dotnet\;C:\Users\Charles\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\Charles\AppData\Local\Android\Sdk\platform-tools;C:\Users\Charles\AppData\Local\Android\Sdk\tools\bin;C:\Users\Charles\AppData\Local\Android\Sdk\emulator;C:\Users\Charles\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PhpStorm 2019.1.2\bin;;d:\Users\Charles\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Charles\AppData\Roaming\Composer\vendor\bin;C:\Users\Charles\AppData\Local\Yarn\bin;C:\Users\Charles\AppData\Roaming\npm;C:\Users\Charles\.dotnet\tools
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/*: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66056:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140665:22)
+      at Request.emit (events.js:321:20)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141637:10)
+      at Request.emit (events.js:321:20)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141559:12)
+      at Object.onceWrapper (events.js:427:28)
+      at IncomingMessage.emit (events.js:333:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "charlesannibal.com",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Charles Santos",
+    "license": "MIT",
+    "dependencies": {
+      "@babel/core": "^7.9.0",
+      "@babel/polyfill": "^7.8.7",
+      "@babel/preset-env": "^7.9.5",
+      "@babel/preset-react": "^7.9.4",
+      "babel-loader": "^8.1.0",
+      "css-loader": "^3.5.2",
+      "html-webpack-plugin": "^4.2.0",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-redux": "^7.2.0",
+      "react-router-dom": "^5.1.2",
+      "redux": "^4.0.5",
+      "redux-saga": "^1.1.3",
+      "style-loader": "^1.1.4",
+      "styled-components": "^5.1.0",
+      "webpack": "^4.43.0",
+      "webpack-cli": "^3.3.11",
+      "webpack-dev-server": "^3.10.3"
+    },
+    "devDependencies": {
+      "connect-api-mocker": "^1.7.0",
+      "file-loader": "^6.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
