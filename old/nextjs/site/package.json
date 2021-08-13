@@ -13,7 +13,7 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.2",
     "html-webpack-plugin": "^4.2.0",
-    "next": "^9.3.6",
+    "next": "^11.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
